@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	 <title>Music Player</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	 <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			 <img src="./assets/logo1.png">
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             Favourites
+		 </div>
+		</div>
+		 <!--Music Player Title div end-->
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 <!--Notification Bell div end-->
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="./assets/logo.jpg">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>David Guetta</b>
+      	     	   <br/>
+      	     	   <artist-type>French DJ</artist-type>
+      	         </div>
+      	     	<followers>10.1M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+				French electronic music producer David Guetta rose to prominence atop the sparkling wave of DJs 
+				who combined Daft Punk's sleek house music with a pinch of electroclash punch at the start of the 
+				21st century. Achieving international crossover success during the late-2000s EDM boom with chart-toppers 
+				One Love and Nothing But the Beat, his house anthems became fixtures on the dance charts into the 2010s, 
+				often featuring famous names from the worlds of pop and rap, including frequent collaborators Nicki Minaj, 
+				Sam Martin, Sia, Morten, Chris Willis, Rihanna, Kelly Rowland, and Afrojack. Along with the latter two 
+				artists, Guetta also won a pair of Grammy Awards in 2011. In 2020, he released the EP New Rave and teamed 
+				up with Sia for the ebullient international synthwave/pop hit "Let's Love." In 2022, he hit the Top Ten of 
+				Billboard's Hot 100 with "I'm Good (Blue)" featuring Bebe Rexha.
+			</div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	555 Tracks | 257 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	I'm Good (Blue)
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Titanium
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Play Hard 
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Hey Mama
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Shot me Down
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Love Tonight
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Say My Name
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Martin Garrix
+    			<br/>
+    	    <author>Dutch DJ</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img2"></div>
+    		<div id="song-details">
+    			Calvin Harris
+    			<br/>
+    	    <author>Scottish DJ</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img3"></div>
+    		<div id="song-details">
+    			Avicii
+    			<br/>
+    	    <author>Swedish DJ</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	I'm Good (Blue)
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Titanium
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Play Hard 
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Hey Mama
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="./assets/davidGuetta3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Shot me Down
+    			    	<br/>
+    			    	<author>David Guetta</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 5-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+    <!--Begining of footer section-->
+   <footer>
+   <!--The bottom music bar which pops up when we play a music-->
+	<div id="music-bar">
+		<!--Music Icon-->
+		<div id="music-icon">
+			 <img src="./assets/davidGuetta3.jpg" alt="music-icon">
+		</div>
+		<!--End of music icon-->
+		<!--Music title-->
+		<div id="music-title">
+			<b>I'm Good</b>
+            <div id="favourite">
+			   <i class="far fa-heart"></i>
+			</div>
+			<div id="remove">
+				<i class="fas fa-ban"></i>
+			</div>
+			<br/>
+			<artist>David Guetta</artist>
+		</div>
+		<!--End of music title-->
+		<!--Play buttons-->
+		<div id="play-buttons">
+			<i class="fas fa-random"></i>
+			<i class="fas fa-backward"></i>
+			<i class="fas fa-pause-circle"></i>
+			<i class="fas fa-forward"></i>
+			<i class="fas fa-undo-alt"></i>
+		</div>
+		<!--End of play buttons-->
+		<!--Music start time-->
+	    <div id="start-time">
+            0:00
+	    </div>
+	    <!--End of music start time-->
+	    <!--Music end time-->
+	    <div id="end-time">
+            2:55
+	    </div>
+	    <!--End of music end time-->
+	    <!--Begining of the progress bar-->
+		<div id="progress-bar">
+		     <div id="circle">
+			     <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of progress bar-->
+		<!--Miscellaneous icons-->
+		<div id="queue">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div id="volume">
+			<i class="fas fa-volume-up"></i>
+		</div>
+		<div id="progress-bar-volume">
+			<div id="circle-volume">
+			  <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of miscellaneous icons-->
+	</div>
+	<!--End of music bar-->
+   </footer>
+   <!--End of footer section-->
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->
